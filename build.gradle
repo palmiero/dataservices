@@ -24,9 +24,9 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web") {}
+    compile("org.springframework.boot:spring-boot-starter-web:+") {}
     // tag::actuator[]
-    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-actuator:+")
     // end::actuator[]
-    testCompile("junit:junit")
+    testCompile("junit:junit:+")
 }
